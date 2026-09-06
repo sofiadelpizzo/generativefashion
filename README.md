@@ -1,6 +1,6 @@
-# Generative Fashion: Tradurre la Critica di Moda in Immagini con l'IA
+# Generative Fashion: tradurre la critica di moda in immagini con l'IA
 
-## Domanda di Ricerca
+## Domanda di ricerca e sintesi progettuale
 > **Quanto è accurato un modello di intelligenza artificiale generativa nel tradurre gli articoli della critica di moda in immagini coerenti con i look della sfilata reale?**
 
 Il progetto indaga la convergenza tra linguaggio naturale specialistico (fashion journalism) e generazione visiva. Attraverso una pipeline di web scraping, raffinamento testuale e prompting text-to-image, si confronta la rappresentazione visiva prodotta da **Gemini** a partire dalle recensioni di *Vogue Italia* con gli scatti effettivi del red carpet del **Met Gala 2026**.
