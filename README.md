@@ -8,9 +8,9 @@ Il progetto indaga l'interazione tra il linguaggio specialistico del giornalismo
 ---
 
 ## Obiettivi
-* **Valutazione della fedeltà visiva:** Misurare la corrispondenza delle immagini generate rispetto ai look originali (silhouette, palette cromatica, resa dei materiali, volumi).
-* **Mappatura delle asimmetrie semantiche:** Individuare quali aspetti dei look reali vengono interpretati più facilmente e quali risultano difficili da tradurre.
-* **Analisi critica dei bias e dei limiti:** Riflettere sulla tendenza all'appiattimento dei canoni estetici (bodyshape standardizzato, età, etnia) e sulla frammentazione/superficialità interpretativa tipica dell'IA generativa.
+* **Valutazione della fedeltà visiva:** misurare la corrispondenza delle immagini generate rispetto ai look originali (silhouette, palette cromatica, resa dei materiali, volumi).
+* **Mappatura delle asimmetrie semantiche:** individuare quali aspetti dei look reali vengono interpretati più facilmente e quali risultano difficili da tradurre.
+* **Analisi critica dei bias e dei limiti:** riflettere sulla tendenza all'appiattimento dei canoni estetici (bodyshape standardizzato, età, etnia) e sulla frammentazione/superficialità interpretativa tipica dell'IA generativa.
 
 ---
 
