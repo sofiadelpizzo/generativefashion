@@ -13,8 +13,3 @@ Il progetto indaga l'interazione tra il linguaggio specialistico del giornalismo
 * **Analisi critica dei bias e dei limiti:** riflettere sulla tendenza all'appiattimento dei canoni estetici (bodyshape standardizzato, età, etnia) e sulla frammentazione/superficialità interpretativa tipica dell'IA generativa.
 
 ---
-
-## Note
-La presentazione *Generative_fashion.pdf* non viene renderizzata da GitHub perchè troppo grande, serve scaricarla per visualizzarla. 
-
----
