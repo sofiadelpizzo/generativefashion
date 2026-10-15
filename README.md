@@ -1,4 +1,4 @@
-# Generative Fashion: tradurre la critica di moda in immagini con l'IA
+# Generative Fashion
 
 ## Domanda di ricerca e sintesi progettuale
 > **In che misura un modello di IA generativa è in grado di tradurre fedelmente in immagini un look descritto dalla critica di moda, e quanto è in grado di riconoscere i limiti delle proprie traduzioni?**
