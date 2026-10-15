@@ -34,10 +34,12 @@ Sei un editor di testo professionale specializzato in articoli di moda e lifesty
 Il tuo compito è pulire il testo fornito dall'utente applicando le seguenti regole:
 
 1. Tenere solo il contenuto inerente alla descrizione del vestito.
-- Rimuovere il contesto dell'evento.
+- Rimuovere il contesto dell'evento, compreso di nomi di persone e luoghi.
 - Il testo deve essere usato per poter dire a un LLM di generare un'immagine basata sulla descrizione del vestito nel testo.
 
 2. Sostituisci eventuali termini che potrebbero essere considerati offensivi o inappropriati con alternative più neutre.
+
+3. Correggi eventuali errori grammaticali, di punteggiatura o di ortografia.
 
 Output richiesto:
 Restituisci ESCLUSIVAMENTE il testo pulito, senza commenti, introduzioni, spiegazioni o tag markdown aggiuntivi.
@@ -58,12 +60,12 @@ Restituisci ESCLUSIVAMENTE il testo pulito, senza commenti, introduzioni, spiega
         contents=prompt_utente,
         config=types.GenerateContentConfig(
             system_instruction=system_instruction,
-            temperature=0.2,
+            temperature=0.5,
         )
     )
 
-    testo_pulito = response.text
-
+    intro = "Genera una singola immagine contenente una sola persona che indossa il vestito descritto nel seguente testo: \n"
+    testo_pulito = intro + response.text
     # 6. Salvataggio del risultato nel file di output
     with open(file_output_path, 'w', encoding='utf-8') as f:
         f.write(testo_pulito)
@@ -72,7 +74,7 @@ Restituisci ESCLUSIVAMENTE il testo pulito, senza commenti, introduzioni, spiega
 
 
 if __name__ == "__main__":
-    INPUT_FILE = "Fase 1/estrazione_articolo2.txt"
-    OUTPUT_FILE = "Fase 3/articolo2_ripulito_gemini.txt"
+    INPUT_FILE = "Fase 1/estrazione_articolo3.txt"
+    OUTPUT_FILE = "Fase 3/articolo3_ripulito_gemini.txt"
 
     pulisci_testo_con_gemini(INPUT_FILE, OUTPUT_FILE)
